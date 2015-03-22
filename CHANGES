@@ -1,0 +1,11 @@
+Version 0.1003: Sun Mar 22 2015
+- Added code to github
+- Added POD test
+
+Version 0.1002: Sun Aug 9 2009
+- Updated to work with versions of Module::Install >= 0.88
+- Added Module::Install to ISA to make sure that it's included into inc when
+	this module is.
+
+Version 0.1000: Sun Jul 13 2008
+- Initial version
