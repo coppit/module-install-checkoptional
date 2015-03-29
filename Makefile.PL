@@ -1,17 +1,18 @@
-#/usr/bin/perl
+#!/usr/bin/perl
 
 use strict;
+
 use inc::Module::Install;
 
-all_from        ('lib/Module/Install/CheckOptional.pm');
+all_from('lib/Module/Install/CheckOptional.pm');
 
-requires        (
-                  'Module::AutoInstall' => 0.88,
-                );
+requires(
+  'Module::AutoInstall' => 0.88,
+);
 
-test_requires   (
-                  'IO::CaptureOutput' => 0,
-                  'Test::More' => 0,
-                );
+test_requires(
+  'IO::CaptureOutput' => 0,
+  'Test::More' => 0,
+);
 
 WriteAll();
