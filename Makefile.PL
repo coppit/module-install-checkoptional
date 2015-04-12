@@ -6,6 +6,8 @@ use inc::Module::Install;
 
 all_from('lib/Module/Install/CheckOptional.pm');
 
+githubmeta;
+
 requires(
   'Module::AutoInstall' => 0.88,
 );
