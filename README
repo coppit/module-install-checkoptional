@@ -62,7 +62,7 @@ Just "perldoc Module::Install::CheckOptional". After installation on
 Unix systems, you can also do "man Module::Install::CheckOptional".
 
 
-HOMEPAGE
+RESOURCES
 
 The CPAN Page:
 http://search.cpan.org/dist/Module-Install-CheckOptional/
@@ -70,10 +70,8 @@ http://search.cpan.org/dist/Module-Install-CheckOptional/
 The GitHub page:
 https://github.com/coppit/module-install-checkoptional/
 
-
-REPORTING BUGS
-
-https://github.com/coppit/module-install-checkoptional/issues
+Bug and feature tracking:
+http://rt.cpan.org/Public/Dist/Display.html?Name=Module-Install-CheckOptional
 
 
 COPYRIGHT
