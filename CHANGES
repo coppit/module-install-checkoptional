@@ -2,6 +2,8 @@ Version 0.1100:
 - Add dependency on Module::AutoInstall, so that users of this module don't
   have to.
 - Clarify licensing terms
+- Move verbose testing to a private module, and implement it in a way that
+  doesn't require editing the Makefile after it is generated.
 
 Version 0.1004: Sun Apr 12 2015
 - Enable verbose testing for CPAN-testers
