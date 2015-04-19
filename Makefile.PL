@@ -12,10 +12,6 @@ all_from('lib/Module/Install/CheckOptional.pm');
 auto_set_bugtracker;
 githubmeta;
 
-include(
-  'File::Slurp' => 0,
-);
-
 requires(
   'Module::AutoInstall' => 0.88,
 );
