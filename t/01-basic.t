@@ -49,5 +49,5 @@ is($stderr, '', 'Present module');
 #------------------------------------------------------------------------------
 
 END {
-	print "\nTEST FAILED\nSTDOUT is:\n$stdout\nSTDERR is:\n$stderr\n";
+	print "\nTEST FAILED\nSTDOUT is:\n$stdout\nSTDERR is:\n$stderr\n" if $stdout ne '' || $stderr ne '';
 }
