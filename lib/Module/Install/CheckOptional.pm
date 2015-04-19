@@ -21,7 +21,7 @@ sub check_optional {
 
   # Tell Module::Install to include this, since we use it.
   $self->perl_version('5.005');
-  $self->include_deps('Module::AutoInstall', 0);
+  $self->include('Module::AutoInstall', 0);
 
   croak "check_optional requires a dependency and version such as \"Carp => 1.03\""
     unless defined $module and defined $version;
