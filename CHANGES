@@ -1,4 +1,4 @@
-Version 0.1100:
+Version 0.1100: Mon Apr 20 2015
 - Add dependency on Module::AutoInstall, so that users of this module don't
   have to.
 - Clarify licensing terms
