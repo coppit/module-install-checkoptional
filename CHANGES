@@ -1,5 +1,6 @@
 Version 0.1101:
 - Prevent CPAN from indexing private-lib
+- Add Module::Install requirement
 
 Version 0.1100: Mon Apr 20 2015
 - Add dependency on Module::AutoInstall, so that users of this module don't
