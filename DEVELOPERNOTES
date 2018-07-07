@@ -26,7 +26,9 @@ Checklist for a release:
     http://pause.perl.org/pause/authenquery
   or
     cpan-upload Module-Install-CheckOptional-X.XX.tar.gz
+- Make sure there are no uncommitted changes:
+  git status
 - Tag the release for easy retrieval later
-  $ git tag -a v0.1003 -m 'Version 0.1003'
+  git tag -a v0.1003 -m 'Version 0.1003'
 - Push changes to github:
-  $ git push
+  git push
